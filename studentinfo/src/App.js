@@ -1,7 +1,7 @@
 import "./App.css";
 import TableCreate from "./Components/table";
 import "./assets/css/compo.css";
-import { students } from "./data/StudentsDb";
+import { students } from "./data/studentsDb.js";
 import { useState } from "react";
 
 function App() {
