@@ -1,5 +1,4 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import Table from "react-bootstrap/Table";
+
 import Profile from "./profile";
 import { useState } from "react";
 
@@ -11,7 +10,7 @@ export default function TableCreate(props) {
       <div className="outerDiv">
         <div className="leftDiv">
           {" "}
-          <Table  striped bordered >
+          <table >
             <thead>
               <tr>
                 <th>First Name</th>
@@ -34,7 +33,7 @@ export default function TableCreate(props) {
                 </tr>
               ))}
             </tbody>
-          </Table>
+          </table>
         </div>
         <div className="rightDiv">
           <Profile student={item} />

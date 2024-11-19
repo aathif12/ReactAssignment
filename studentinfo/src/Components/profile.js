@@ -1,4 +1,4 @@
-import Table from "react-bootstrap/Table";
+
 export default function Profile(props) {
   return (
     <>
@@ -11,7 +11,7 @@ export default function Profile(props) {
           />
         </div>
         <div className="rightDiv">
-          <Table responsive>
+          <table>
             <tbody>
               <tr>
                 <td>ID: {props.student.studentId}</td>
@@ -37,7 +37,7 @@ export default function Profile(props) {
                 <td>Skills: {props.student.skills}</td>
               </tr>
             </tbody>
-          </Table>
+          </table>
         </div>
       </div>
     </>
