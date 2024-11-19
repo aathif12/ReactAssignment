@@ -1,5 +1,5 @@
 import "./App.css";
-import TableCreate from "./components/table";
+import TableCreate from "./Components/table";
 import "./assets/css/compo.css";
 import { students } from "./data/StudentsDb";
 import { useState } from "react";
