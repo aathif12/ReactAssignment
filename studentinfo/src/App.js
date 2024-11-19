@@ -9,7 +9,7 @@ function App() {
   const changeFontSize = (size) => {
     switch (size) {
       case "small":
-        setFontSize("16px");
+        setFontSize("14px");
         break;
       case "medium":
         setFontSize("20px");
@@ -18,7 +18,7 @@ function App() {
         setFontSize("24px");
         break;
       default:
-        setFontSize("16px");
+        setFontSize("14px");
     }
   };
  
